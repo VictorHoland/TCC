@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 21:15:29 On 06/05/2025
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [SPI FLASH] of Project [devkit-visao.PrjPcb]
+   Generated File[Bill of Materials-devkit-visao(SPI FLASH).xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 21:15:31 On 06/05/2025

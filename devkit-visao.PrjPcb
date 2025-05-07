@@ -237,7 +237,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NBQAKXVG
 
 [Document12]
-DocumentPath=softex-devkit-visao.BomDoc
+DocumentPath=devkit-visao.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -247,7 +247,7 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -453,32 +453,32 @@ DocumentPath=Project Outputs for softex-devkit-visao\Gerber\softex-devkit-visao.
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Website
-Value=https://softex.br/
+Name=CheckedProject
+Value=Alex Batista
 
 [Parameter2]
-Name=VersionRevision
-Value=P1
+Name=Company
+Value=UFAL
 
 [Parameter3]
-Name=TitleProject
-Value=DEVKIT VISAO
+Name=DesignedProject
+Value=Victor Holanda
 
 [Parameter4]
 Name=NotFitted
 Value=NF
 
 [Parameter5]
-Name=DesignedProject
-Value=Victor Holanda
+Name=TitleProject
+Value=DEVKIT VISAO
 
 [Parameter6]
-Name=Company
-Value=UFAL
+Name=VersionRevision
+Value=P1
 
 [Parameter7]
-Name=CheckedProject
-Value=Alex Batista
+Name=Website
+Value=https://softex.br/
 
 [Configuration1]
 Name=Sources
@@ -598,12 +598,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Brother HL-L6202DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1142,13 +1152,6 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
-Type152=1
-Type153=1
-Type154=1
-Type155=1
-Type156=1
-Type157=1
-Type158=1
 
 [Difference Levels]
 Type1=1
@@ -1233,10 +1236,6 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
 
 [Electrical Rules Check]
 Type1=1
